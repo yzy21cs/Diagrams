@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T15:58:40.918Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="PhWsyf62WJbaLnXWqNo-" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T15:59:59.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="nb0Fcv8mItanOT9-Q8BP" version="24.0.1" type="github">
   <diagram name="Page-1" id="r3yXHVy3wjTCE7LiyF-z">
     <mxGraphModel dx="2562" dy="2345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -490,7 +490,7 @@
         <mxCell id="nuMuE7_DP4gPz8AC6Hzn-23" value="1..*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1670" y="-239" width="40" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="nuMuE7_DP4gPz8AC6Hzn-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Console Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ logIn(in userNameOrEmail: String, password : String): boolean&amp;nbsp;&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ getInput(prompt: String, options: String[*]): String&lt;/div&gt;&lt;div&gt;- &amp;nbsp;printOverview(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ exportData(id:Administrator); Void&lt;/div&gt;&lt;div&gt;+importData(path: String);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="nuMuE7_DP4gPz8AC6Hzn-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConsoleClass&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ logIn(in userNameOrEmail: String, password : String): boolean&amp;nbsp;&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ getInput(prompt: String, options: String[*]): String&lt;/div&gt;&lt;div&gt;- &amp;nbsp;printOverview(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ exportData(id:Administrator); Void&lt;/div&gt;&lt;div&gt;+importData(path: String);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1070" y="-813.5" width="360" height="189" as="geometry" />
         </mxCell>
         <mxCell id="nuMuE7_DP4gPz8AC6Hzn-25" value="" style="endArrow=open;startArrow=cross;endFill=0;startFill=0;endSize=8;startSize=10;html=1;rounded=0;entryX=0.537;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nuMuE7_DP4gPz8AC6Hzn-24">
@@ -514,9 +514,6 @@
               <mxPoint x="1620" y="-710" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="nuMuE7_DP4gPz8AC6Hzn-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SessionLevel&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sessionLevelId:int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sessionId: int&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="770" y="240" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="nuMuE7_DP4gPz8AC6Hzn-39" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1700" y="-20" width="60" height="30" as="geometry" />
