@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T00:55:53.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="fiHeaoOpkDUHXwOCXTuP" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T02:37:55.533Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="IiJEez3L-dKMkDH0ObXp" version="24.0.2" type="github">
   <diagram name="Page-1" id="r3yXHVy3wjTCE7LiyF-z">
-    <mxGraphModel dx="2735" dy="2463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1949" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,9 +103,6 @@
         </mxCell>
         <mxCell id="F9fR9Gw7HePgkh-NJreo-39" value="Output As Label" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="F9fR9Gw7HePgkh-NJreo-31" vertex="1">
           <mxGeometry y="190" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="F9fR9Gw7HePgkh-NJreo-40" value="1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" parent="1" connectable="0" vertex="1">
-          <mxGeometry x="404.3423076923076" y="-176.38461538461547" as="geometry" />
         </mxCell>
         <mxCell id="F9fR9Gw7HePgkh-NJreo-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="F9fR9Gw7HePgkh-NJreo-2" target="F9fR9Gw7HePgkh-NJreo-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -229,7 +226,7 @@
         <mxCell id="F9fR9Gw7HePgkh-NJreo-3" value="Phone Number" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="1" vertex="1">
           <mxGeometry x="-630" y="-380" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k1Eapjv-2Vpnyby0Hg6Q-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;{abstract}&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# firstName: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# lastName: string &amp;nbsp;//NU&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# email: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# birthOfDate: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# password: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# admin: boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;# userID: int &amp;nbsp; &amp;nbsp;// NU&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;# userName: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;/age: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ logIn(in userNameOrEmail: String, password : String): boolean //NU&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ logOut(): void &amp;nbsp; //NU&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ placeInput(String): void &amp;nbsp;//nu&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- getAge(): int &amp;nbsp;//nu&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUserId() &amp;nbsp;//nu&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isAdmin(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUsername(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPassword(): object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="k1Eapjv-2Vpnyby0Hg6Q-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;{abstract}&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# firstName: string &amp;nbsp;//NU&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# lastName: string &amp;nbsp;//NU&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# email: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# birthOfDate: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# password: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# admin: boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;# userID: int &amp;nbsp; &amp;nbsp;// NU&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;# userName: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;/age: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ logIn(in userNameOrEmail: String, password : String): boolean //NU&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ logOut(): void &amp;nbsp; //NU&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ placeInput(String): void &amp;nbsp;//nu&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- getAge(): int &amp;nbsp;//nu&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUserId() &amp;nbsp;//nu&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isAdmin(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUsername(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPassword(): object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="960" y="-1090" width="540" height="340" as="geometry" />
         </mxCell>
         <mxCell id="k1Eapjv-2Vpnyby0Hg6Q-21" value="Administrator&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -489,6 +486,36 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1510" y="-350" as="sourcePoint" />
             <mxPoint x="1560" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CobFEwK4V_Joptj7vcLr-1" value="JsonHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-180" width="410" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CobFEwK4V_Joptj7vcLr-2" value="+ jsonData: JsonData" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CobFEwK4V_Joptj7vcLr-1">
+          <mxGeometry y="26" width="410" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="CobFEwK4V_Joptj7vcLr-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CobFEwK4V_Joptj7vcLr-1">
+          <mxGeometry y="120" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CobFEwK4V_Joptj7vcLr-4" value="+ main(args: String[]): void&lt;div&gt;+ getData(): JsonData&lt;/div&gt;&lt;div&gt;+ readJsonFile(): JsonData&lt;/div&gt;&lt;div&gt;+ readJsonFile(filePath: String): JsonData&lt;/div&gt;&lt;div&gt;+ writeToJsonFile(jsonData: JsonData): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CobFEwK4V_Joptj7vcLr-1">
+          <mxGeometry y="128" width="410" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="CobFEwK4V_Joptj7vcLr-5" value="JsonData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="470" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CobFEwK4V_Joptj7vcLr-6" value="+ users: Arraylist&amp;lt;User&amp;gt;&lt;div&gt;+ levels: Arraylist&amp;lt;Level&amp;gt;&lt;/div&gt;&lt;div&gt;+ learningProgress&amp;lt;LearningProgress&amp;gt;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CobFEwK4V_Joptj7vcLr-5">
+          <mxGeometry y="26" width="470" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="CobFEwK4V_Joptj7vcLr-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CobFEwK4V_Joptj7vcLr-5">
+          <mxGeometry y="100" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CobFEwK4V_Joptj7vcLr-8" value="+ jsonData(user: User, levels: Arraylist&amp;lt;Level&amp;gt;, learningProgress: LearningProgress)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CobFEwK4V_Joptj7vcLr-5">
+          <mxGeometry y="108" width="470" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="CobFEwK4V_Joptj7vcLr-12" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.475;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CobFEwK4V_Joptj7vcLr-5" target="CobFEwK4V_Joptj7vcLr-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="150" as="sourcePoint" />
+            <mxPoint x="540" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
